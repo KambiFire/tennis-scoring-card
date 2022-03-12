@@ -1,4 +1,4 @@
-import { useState } from "react";
+import react, { useState } from "react";
 import "./styles.css";
 
 import * as Cmp from "./components";
@@ -52,7 +52,7 @@ export default function App() {
         setSetsScore({ ...setsScore, player1: setsPlayer1 });
         setMatchScore([
           ...matchScore,
-          { player1: gamesPlayer1, player2: gamesPlayer2 }
+          { player1: gamesPlayer1, player2: gamesPlayer2 },
         ]);
         setGamesScore(initialScores);
       }
@@ -61,7 +61,7 @@ export default function App() {
         setSetsScore({ ...setsScore, player2: setsPlayer2 });
         setMatchScore([
           ...matchScore,
-          { player1: gamesPlayer1, player2: gamesPlayer2 }
+          { player1: gamesPlayer1, player2: gamesPlayer2 },
         ]);
         setGamesScore(initialScores);
       }
