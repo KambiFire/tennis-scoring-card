@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.ScoreContainer {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 300px;
+}
+.ScoresCard {
+  width: 49%;
+  background-color: lightgrey;
+  overflow: auto;
+}
+.GameCard {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ContentCard {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.ButtonContainer {
+  background-color: lightgrey;
+  margin: 20px 0;
+}
+.GameOverCard {
+  justify-content: center;
+  margin-bottom: 10px;
+  align-items: center;
+  height: 60px;
+  border-top: 1px solid green;
+  color: green;
+}
