@@ -1,11 +1,11 @@
 {
-  "name": "react-typescript",
+  "name": "tennis-scoring-card",
   "version": "1.0.0",
-  "description": "React and TypeScript example starter project",
+  "description": "React and TypeScript tennis scoring-card project",
+  "homepage": "https://KambiFire.github.io/tennis-scoring-card",
   "keywords": [
     "typescript",
-    "react",
-    "starter"
+    "react"
   ],
   "main": "src/index.tsx",
   "dependencies": {
@@ -20,6 +20,8 @@
     "typescript": "4.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
